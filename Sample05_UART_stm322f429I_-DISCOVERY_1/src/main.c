@@ -111,8 +111,9 @@ int main(void)
   /* Configure the system clock to 180 MHz */
   SystemClock_Config();
 //  init_GPIO();
-  /*§Úªº¥D­ncode*/
+  /*ï¿½Úªï¿½ï¿½Dï¿½ncode*/
   /*test git*/
+  /*test_git_2*/
   STM32f4_UART_Init(&UartHandle);
   print_string("UART init done.\r\n");
   STM32f4_CAN_Init(&CanHandle, &sFilterConfig, &TxMessage, &RxMessage);
@@ -246,7 +247,7 @@ int main(void)
 
   }
 
-  /*§Úªº¥D­ncode*/
+  /*ï¿½Úªï¿½ï¿½Dï¿½ncode*/
 
 #ifdef TRANSMITTER_BOARD
 
