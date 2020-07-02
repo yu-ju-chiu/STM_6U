@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1877822196/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1877822196/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1877822196/PATH/value=C\:\\Program Files\\GNU MCU Eclipse\\Build Tools\\2.9-20170629-1013\\bin\\bin;C\:\\Program Files (x86)\\GNU Tools ARM Embedded\\6 2017-q2-update\\bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1877822196/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1877822196/appendContributed=true
