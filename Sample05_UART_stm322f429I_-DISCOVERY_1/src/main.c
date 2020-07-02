@@ -111,7 +111,7 @@ int main(void)
   /* Configure the system clock to 180 MHz */
   SystemClock_Config();
 //  init_GPIO();
-  /*§Úªº¥D­ncode*/
+  /*ï¿½Úªï¿½ï¿½Dï¿½ncode*/
   /*test git*/
   STM32f4_UART_Init(&UartHandle);
   print_string("UART init done.\r\n");
@@ -147,9 +147,9 @@ int main(void)
 
     /* Turn LED3 on: Transfer in transmission process is correct */
     /* then Off for next transmission */
-    BSP_LED_On(LED3);
+    BSP_LED_On(LED4);
     HAL_Delay(200);
-    BSP_LED_Off(LED3);
+    BSP_LED_Off(LED4);
     print_string("please insert poweron or poweroff.\r\n");
 	 if(HAL_CAN_Receive_IT(&CanHandle, CAN_FIFO0) != HAL_OK)
 	 {
@@ -246,7 +246,7 @@ int main(void)
 
   }
 
-  /*§Úªº¥D­ncode*/
+  /*ï¿½Úªï¿½ï¿½Dï¿½ncode*/
 
 #ifdef TRANSMITTER_BOARD
 
