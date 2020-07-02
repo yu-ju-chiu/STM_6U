@@ -112,6 +112,7 @@ int main(void)
   SystemClock_Config();
 //  init_GPIO();
   /*我的主要code*/
+  /*test git*/
   STM32f4_UART_Init(&UartHandle);
   print_string("UART init done.\r\n");
   STM32f4_CAN_Init(&CanHandle, &sFilterConfig, &TxMessage, &RxMessage);
