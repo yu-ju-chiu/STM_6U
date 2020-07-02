@@ -148,6 +148,9 @@ int main(void)
 
     /* Turn LED3 on: Transfer in transmission process is correct */
     /* then Off for next transmission */
+     BSP_LED_On(LED3);
+    HAL_Delay(200);
+    BSP_LED_Off(LED3);
     BSP_LED_On(LED4);
     HAL_Delay(200);
     BSP_LED_Off(LED4);
